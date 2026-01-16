@@ -1,24 +1,34 @@
+:root{
+--bg-color:rgba(245, 242, 237, 1);
+
+
+
+}
 .nav_container{
     display: flex;
     flex-direction: row;
-    background-color: rgba(245, 242, 237, 1);
+    background-color: ;
     justify-content: space-between;
+    height:100px;
+  
 }
 
 #logo{
     
-    width: 100px;
-    height: auto;
+    height: 15vh;
+    width: auto;
+    max-height: 100%;
     
-}
-footer{
-    background-color: blue;
-    padding: 10px;
     
-}   
-@media (max-width: 600px) {
-  section {
-    -webkit-flex-direction: row;
-    flex-direction: row;
   }
-}
+
+footer{
+
+    background-color: var(--bg-color);
+    bottom:0;
+    left:0;
+    position:fixed;
+    width:100%;
+    height:50px
+}   
+
