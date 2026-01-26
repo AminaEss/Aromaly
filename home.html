@@ -4,32 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/root.css">
+
 <body>
-   <!-- <nav>
-        <div class="nav_container">
-          <div>
-            
-          </div>
-          <div><img src="./imgs/logo.png" id="logo"></div>  
-          <div>test</div>
-        </div>
-    </nav>
-    <footer>
-        <p>footer</p>
-    </footer>
--->
+  
 
     <!-- Header with logo and navigation icons [1] -->
-    <header>
-        <div class="nav-left">
-            <span class="icon-menu"></span>
-            <span class="icon-search"></span>
-        </div>
-        <div class="logo">AROMALY</div>
-        <div class="nav-right">
-            <span class="icon-profile"></span>
-        </div>
+   
+        
+    <header class="navbar-top">
+        <nav class="navbar-top--section">
+
+            <!-- Menu HAMBURGUESA -->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="menu">
+                <li><a href="#">Listas</a></li>
+                <li><a href="#">Perfumes</a></li>
+                <li><a href="#">Perfumistas</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <form id="demo-2">
+	            <input type="search" placeholder="Search">
+            </form>
+            
+        </nav>
+        <section class="navbar-top--section"><a href="#"><img src="artwork/home/logo.png" class="logo" alt="logo"></a></section>
+        <nav class="navbar-top--section">
+           <label class="hamburger" id="user_btn">
+            <a href="/login.html">a</a>
+           </label>
+        </nav>
     </header>
 
     <!-- Hero Section [1] -->
@@ -40,10 +52,13 @@
             en tus perfumes favoritos</h1>
             <button class="cta-button">Obtener Premium</button>
         </div>
-        <!-- Background image of hand with perfume [1] -->
+        <div>
+            <img src="artwork/home/hero.png" class="hero_img">
+        </div>
     </main>
 
     <!-- Footer [1] -->
+     <hr>
     <footer>
         <div class="footer-grid">
             <div class="socials">
