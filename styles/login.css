@@ -88,14 +88,12 @@ h2 {
   transition: 0.5s;
 }
 
-/* animations: start */
 
 input:focus ~ label,
 input:valid ~ label {
   top: -5px;
 }
 
-/* animation:end */
 
 .inputbox input {
   width: 100%;
@@ -195,11 +193,9 @@ button {
   text-decoration: underline;
 }
 
-/* Responsiveness:Start */
 @media screen and (max-width: 480px) {
   .form-box {
     width: 100%;
     border-radius: 0px;
   }
 }
-/* Responsiveness:End */
