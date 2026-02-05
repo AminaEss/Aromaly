@@ -1,0 +1,39 @@
+/* Hero  */
+.hero {
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10%;
+    justify-content: space-between;
+}
+
+
+.hero-content{
+    padding-bottom: 10vh;
+}
+
+.hero_img{
+    width:70vh;
+    height: auto;
+    padding-bottom: 10vh;
+}
+
+.highlight {
+    color: #d4c07d;
+}
+
+.cta-button {
+    background: linear-gradient(90deg, rgba(230, 212, 104, 1) 0%, rgba(207, 175, 149, 1) 100%);
+    border: none;
+    padding: 25px 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 180px;
+    margin-top: 2vh;
+    color:white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: larger;
+    font-family: var(--font-Montserrat);
+}
